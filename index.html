@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     <title>Converter</title>
+     <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+    <div id="main-section">
+        <h1>---CONVERTER---</h1>
+        <form>
+            <input id="E1" type="text" placeholder="Enter value"><br>
+        <h2>From-</h2>
+        <select name="convertFrom" id="source">
+            <option value="">--Select--</option>
+            <option id="1" value="dec">Decimal</option>
+            <option id="2" value="hex">Hexadecimal</option>
+            <option id="3" value="oct">Octal</option>
+            <option id="4" value="bin">Binary</option>
+         </select>
+         <div id="swapping">
+             <h2>To-</h2>
+             <button id="swap">Swap</button>
+         </div><br>
+         <select name="convertTo" id="local">
+            <option value="">--Select--</option>
+            <option id="opt1" value="dec">Decimal</option>
+            <option id="opt2" value="hex">Hexadecimal</option>
+            <option id="opt3" value="oct">Octal</option>
+            <option id="opt4" value="bin">Binary</option>
+         </select><br><br>
+         <div id="btn">
+         <button id="change">convert_value</button>
+          <h2 id="heading"></h2>
+        </div>
+        </form>
+    </div>
+   <script src="index.js"></script>
+</body>
+</html>
